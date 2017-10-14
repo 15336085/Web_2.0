@@ -1,0 +1,116 @@
+body{
+    background-image: url("../pic/background.png");
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    text-align: center;
+    background-image: url("../pic/bannerbackground.png");
+}
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: "Verdana", sans-serif;
+}
+.content{
+    width: 800px;
+    border:4px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head{
+    float: left;
+    width: 550px;
+    height: 83px;
+    text-align:left;
+    background-image: url("../pic/rottenbackground.png");
+}
+.head > img{
+    display: inline-block;
+    vertical-align: bottom;
+    height: 83px;
+}
+.head > div{
+    display: inline-block;
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    font-family: "Verdana", sans-serif;
+}
+.head > div > span{
+    display: inline-block;
+    font-size: 8pt;
+    color: white; 
+}
+.rightaside{
+    width: 550px;
+    float: left;
+}
+.row{
+    width:550px;
+    float:left;
+}
+.review{
+    float: left;
+    width: 47%;
+    margin: 2% 0% 2% 2%;
+}
+.comment{
+    border: 2px solid grey;
+    background-color: #E1D697; 
+    padding: 8px;
+    font-weight: bold;
+    font-size: 8pt;
+    font-family: "Verdana", sans-serif;
+}
+.comment > img{
+    float: left;
+    margin-right: 5px;
+}
+.critic{
+    font-size: 8pt;
+    font-family: "Verdana", sans-serif;
+    margin-top: 1em; 
+    margin-bottom: 1em;
+}
+.critic > img{
+    float: left;
+    margin-right: 5px;
+}
+.critic > span{
+    font-style: italic;
+}
+.leftaside{
+    width: 250px;
+    float: right;
+    background-color: #A2B964;
+}
+.overview{
+    margin-left: 10px;
+    font-size: 8pt;
+}
+.overview > dl > dt{
+    font-weight: bold;
+    margin-top: 1em;
+}
+footer{
+    background-color: #A2B964;
+    font-size: 8pt;
+    text-align: center;  
+    clear: both;
+    padding: 5px;
+}
+.css{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.xhtml{
+    position: fixed;
+    right: 0px;
+    bottom: 35px;
+}
+
+
